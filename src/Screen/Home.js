@@ -33,7 +33,7 @@ class Home extends Component {
   nextPage = async () => {
     await this.props.dispatch(getHome(this.state.page + 1)).then(() => {
       this.setState({
-        bookhome: this.props.book
+        bookhome: this.props.listbookhome.listBuku.result
       });
     });
   };
@@ -41,7 +41,7 @@ class Home extends Component {
   prevPage = async () => {
     await this.props.dispatch(getHome(this.state.page - 1)).then(() => {
       this.setState({
-        bookhome: this.props.book
+        bookhome: this.props.listbookhome.listBuku.result
       });
     });
   };
@@ -49,25 +49,25 @@ class Home extends Component {
     const list = this.state.bookhome;
 
     // for (let pages = 0; pages < list.length; pages++) {
-    if (list.length < 2) {
-      var numPage = (
-        <li className="page-item">
-          <a className="page-link" href="#">
-            1
-          </a>
-        </li>
-      );
-    } else {
-      for (let index = 0; index > list.length; index++) {
-        var numPage = (
-          <li className="page-item">
-            <a className="page-link" href="#">
-              {index}
-            </a>
-          </li>
-        );
-      }
-    }
+    // if (list.length < 2) {
+    //   var numPage = (
+    //     <li className="page-item">
+    //       <a className="page-link" href="#">
+    //         1
+    //       </a>
+    //     </li>
+    //   );
+    // } else {
+    //   for (let index = 0; index > list.length; index++) {
+    //     var numPage = (
+    //       <li className="page-item">
+    //         <a className="page-link" href="#">
+    //           {index}
+    //         </a>
+    //       </li>
+    //     );
+    //   }
+    // }
 
     // }
     console.log("ini dari list", list);
