@@ -33,7 +33,7 @@ class Home extends Component {
   nextPage = async () => {
     await this.props.dispatch(getHome(this.state.page + 1)).then(() => {
       this.setState({
-        books: this.props.book
+        bookhome: this.props.book
       });
     });
   };
@@ -41,7 +41,7 @@ class Home extends Component {
   prevPage = async () => {
     await this.props.dispatch(getHome(this.state.page - 1)).then(() => {
       this.setState({
-        books: this.props.book
+        bookhome: this.props.book
       });
     });
   };
