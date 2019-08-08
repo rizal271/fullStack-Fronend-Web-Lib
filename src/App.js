@@ -8,7 +8,7 @@ import Home from "./Screen/Home";
 import Peminjam from "./Screen/Peminjam";
 import Kategori from "./Screen/Kategori";
 import Peminjaman from "./Screen/Peminjaman";
-import login from "Screen/UserAuth/Login";
+import login from "./Screen/UserAuth/Login";
 import Registrasi from "./Screen/UserAuth/Registrasi";
 import DetailPeminjaman from "./Screen/DetailPeminjaman";
 import React, { Component, Fragment } from "react";
