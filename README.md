@@ -1,68 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">LibraryBook</h1>
+<p align="center">
+  <img width="250" src="https://miro.medium.com/max/3200/1*EVqCcmCPgpNKxU1wzcTHgw.png"/>
+</p>
+<p align="center">
+  Built with ReactJs.
+</p>
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Usage](#usage-for-development)
+- [Author](#author)
 
-### `npm start`
+## Introduction
+LibraryBook is an application to make online book loan transactions based on Web.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
+* Users must become member before can loan some books
+* Users can loan some books
+* Display history loan book
+* Forfeit when return book more then date loan
+* Donate book
+* And others
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Requirements
+* [`npm`](https://www.npmjs.com/get-npm)
+* [`reactjs`](https://reactjs.org/docs/getting-started.html)
 
-### `npm test`
+## Usage for development
+1. Open your terminal or command prompt
+2. Type `git clone https://github.com/rizal271/fullStack-Fronend-Web-Lib`
+3. Open the folder and type `npm install` for install dependencies
+4. Type `npm start` for run this app.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Author
+<center>
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/rizal271">
+          <img width="100" src="https://avatars0.githubusercontent.com/u/50235425?s=460&v=4" alt="Rizal Rohman Abdul Dzalil"><br/>
+          <sub><b>Rizal Rohman Abdul Dzalil</b></sub>
+        </a>
+      </td>
+    </tr>
+  </table>
+</center>
